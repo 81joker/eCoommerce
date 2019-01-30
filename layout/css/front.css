@@ -1,0 +1,283 @@
+/* Start Main Rulaz */
+
+body {
+
+background-color: #f4f4f4;
+font-size: 16px;
+background-image: url(ahmed.jpg);
+
+}
+.nice-message {
+  padding: 10px;
+  background-color: #FFF;
+  margin: 10px 0;
+  border-left: 5px solid #080;
+}
+/* End Main Rulaz */
+
+
+
+/* Start Bootstrap Edits */
+
+.navbar  {
+ border-radius: 0;
+ margin-bottom: 0;
+
+}
+.nav > li > a ,
+.navbar-brand{
+padding: 15px 12px;
+
+
+}
+
+.navbar-brand {
+
+font-size: 1.4em;
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus ,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+
+background-color: #3498db;
+
+}
+h1 {
+
+ font-size: 55px;
+ margin: 30px 0;
+ font-weight: bold;
+ color: #666
+
+}
+
+.input-container {
+position: relative;
+
+}
+.asterisk {
+position: absolute;
+top: 3px;
+right: 10px;
+font-size: 26px;
+color: #f00;
+}
+.main-form .asterisk {
+position: absolute;
+top: 7px;
+right: 30px;
+font-size: 32px;
+color: #f00;
+}
+
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+.form-control {
+	position: relative;
+}
+
+/* End Bootstrap Edits */
+/* Start Header */
+
+
+.upper-bar {
+  background-color:#FFF;
+  padding: 5px;
+  color:#000;
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+}
+
+
+
+/* End Header */
+
+/* Start login page */
+
+.login-page form {
+
+ max-width: 300px;
+ margin: auto;
+}
+.login-page form input {
+ margin-bottom: 10px;
+}
+
+.login-page [data-class="login"].selected{
+ color: #337ab7;
+}
+.login-page [data-class="signup"].selected{
+ color: #5cb85c;
+}
+
+.login-page h1 {
+ color: #C0C0C0
+}
+.login-page h1 span {
+  cursor: pointer;
+}
+.login-page .signup{
+  display: none;
+}
+
+.login-page form ,
+.the-errors{
+margin: auto;
+max-width: 380px
+
+}
+.the-errors .msg {
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #919191;
+}
+
+.the-errors .error {
+    border-left: 5px solid #cd6858
+}
+
+
+/* End login page */
+
+
+/* Start Categories Page*/
+
+
+
+ .price-tag {
+
+background-color: #dcd2d3;
+color:#0d5d6f;
+padding: 5px;
+
+font-weight: bold;
+
+ }
+
+/* End Categories Page*/
+
+/* Start Profaile page */
+
+.information{
+margin-top:  20px;
+
+}
+.information ul {
+  margin: 0;
+  padding: 0;
+}
+.information ul li {
+  padding: 10px
+}
+.information ul li:nth-child(odd) {
+  background-color: #EEE
+}
+.information ul li span {
+  display: inline-block;
+  width: 120px;
+
+}
+.thumbnail .data{
+  color: #AAA;
+  text-align: right;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* End Profaile page */
+/* Start Show Item Page */
+
+.item-info h2 {
+  padding: 10px;
+  margin: 0;
+}
+
+.item-info p {
+  padding: 10px;
+}
+
+.item-info ul li { 
+  padding: 10px;
+}
+
+.item-info ul li:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+
+.item-info ul li span {
+  display: inline-block;
+  width: 120px;
+}
+
+.custom-hr{
+      display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.add-comment h3 {
+  margin: 0 0 10px;
+}
+
+.add-comment textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 120px;
+}
+
+.comment-box {
+  margin-bottom: 20px;
+}
+
+.comment-box img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.comment-box .lead {
+  background-color: #e0e0e0;
+  position: relative;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.comment-box .lead:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+
+/* End Show Item Page */
+

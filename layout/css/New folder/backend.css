@@ -1,0 +1,21 @@
+body {
+
+background-color: #f4f4f4;
+
+
+
+}
+
+
+
+
+.login {
+
+  width: 300px;
+  margin: 100px auto;
+}
+.login input{
+	margin-top: 10px
+
+
+}
